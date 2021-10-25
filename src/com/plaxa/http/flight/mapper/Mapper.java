@@ -1,0 +1,6 @@
+package com.plaxa.http.flight.mapper;
+
+public interface Mapper<F, T> {
+
+    T mapFrom(F object);
+}
